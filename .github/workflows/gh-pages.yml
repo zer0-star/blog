@@ -1,9 +1,7 @@
 name: Build GH-Pages
 
 on:
-  push:
-    paths-ignore:
-      - 'README.md'
+  push
 
 jobs:
   deploy:
