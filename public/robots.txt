@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://zer0-star.github.io/blog/sitemap.xml
