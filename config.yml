@@ -33,8 +33,6 @@ params:
     title: zer0-star's blog
     imageUrl: "images/zer0-star.png"
     imageTitle: my image
-    # imageWidth: 120
-    # imageHeight: 120
     buttons:
       - name: Posts
         url: posts
