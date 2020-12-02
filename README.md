@@ -1,2 +1,2 @@
 # zer0-star's blog
-my blog with [Hugo](https://gohugo.io/)!
+[my blog](https://zer0-star.github.io/blog/) with [Hugo](https://gohugo.io/)!
