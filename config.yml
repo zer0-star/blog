@@ -1,0 +1,52 @@
+baseURL: "https://zer0-star.github.io/blog/"
+title: zer0-star's blog
+paginate: 5
+theme: hugo-PaperMod
+defaultContentLanguage: "ja"
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+
+params:
+  env: production
+  description: "zer0-star's blog"
+  author: zer0-star
+  
+  ShowReadingTime: true
+  defaultTheme: auto
+  ShowShareButtons: true
+  # displayFullLangName: true
+  # images: ""
+  assets:
+    favicon: "favicon.png"
+
+  profileMode:
+    enabled: true
+    title: zer0-star's blog
+    imageUrl: "images/zer0-star.png"
+    imageTitle: my image
+    # imageWidth: 120
+    # imageHeight: 120
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  homeInfoParams:
+    Title: Hi
+    Content: Hey!
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/0x_zer0star"
+    - name: github
+      url: "https://github.com/zer0-star"
