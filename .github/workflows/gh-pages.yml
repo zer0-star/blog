@@ -18,10 +18,6 @@ jobs:
       - name: Update theme to Latest commit
         run: git submodule update --remote --merge
       
-      - name: use mathjax
-        run: >
-          echo '<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>' >> themes/hugo-PaperMod/layouts/partials/extend_head.html
-
       - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
         with:
