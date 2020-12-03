@@ -17,6 +17,13 @@ $$
 \sin(\theta) = \cos\left(\frac{\pi}{2} - \theta\right)
 $$
 
+$$
+\begin{align}
+\sum_{k=0}^\infty \frac{1}{2^k} & = \frac{1}{1 - \frac{1}{2}} \\\\
+                                & = 2
+\end{align}
+$$
+
 ```nim
 import strutils, strformat
 
