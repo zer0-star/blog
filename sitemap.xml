@@ -13,6 +13,16 @@
   </url>
   
   <url>
+    <loc>https://zer0-star.github.io/blog/tags/</loc>
+    <lastmod>2020-12-02T23:38:42+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zer0-star.github.io/blog/tags/test/</loc>
+    <lastmod>2020-12-02T23:38:42+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zer0-star.github.io/blog/</loc>
     <lastmod>2020-12-02T23:38:42+09:00</lastmod>
   </url>
@@ -22,7 +32,7 @@
   </url>
   
   <url>
-    <loc>https://zer0-star.github.io/blog/tags/</loc>
+    <loc>https://zer0-star.github.io/blog/series/</loc>
   </url>
   
 </urlset>

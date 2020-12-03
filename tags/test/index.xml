@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>test on zer0-star&#39;s blog</title>
+    <link>https://zer0-star.github.io/blog/tags/test/</link>
+    <description>Recent content in test on zer0-star&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 02 Dec 2020 23:38:42 +0900</lastBuildDate><atom:link href="https://zer0-star.github.io/blog/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://zer0-star.github.io/blog/posts/my-first-post/</link>
+      <pubDate>Wed, 02 Dec 2020 23:38:42 +0900</pubDate>
+      
+      <guid>https://zer0-star.github.io/blog/posts/my-first-post/</guid>
+      <description>とりあえずブログができました。
+test test
+test
+test
+Union-Find algorithm: amortized \(O(\alpha(n))\) time
+$$ \sin(\theta) = \cos\left(\frac{\pi}{2} - \theta\right) $$
+$$ \begin{align} \sum_{k=0}^\infty \frac{1}{2^k} &amp;amp; = \frac{1}{1 - \frac{1}{2}} \\
+&amp;amp; = 2 \end{align} $$
+import strutils, strformat for s in stdin.readLine().split(): echo fmt&amp;#34;Hello, {s}!&amp;#34; main = do n &amp;lt;- readLn @Int replicateM_ n $ putStrLn &amp;#34;Hello!&amp;#34; </description>
+    </item>
+    
+  </channel>
+</rss>
