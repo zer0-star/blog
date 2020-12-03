@@ -31,6 +31,7 @@ params:
   profileMode:
     enabled: true
     title: zer0-star's blog
+    subtitle: ブログ始めました
     imageUrl: "images/zer0-star.png"
     imageTitle: my image
     buttons:
@@ -48,3 +49,8 @@ params:
       url: "https://twitter.com/0x_zer0star"
     - name: github
       url: "https://github.com/zer0-star"
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
