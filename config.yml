@@ -14,6 +14,8 @@ minify:
   disableXML: true
   minifyOutput: true
 
+canonifyurls: true
+
 
 params:
   env: production
@@ -49,6 +51,8 @@ params:
       url: "https://twitter.com/0x_zer0star"
     - name: github
       url: "https://github.com/zer0-star"
+    - name: atcoder
+      url: "https://atcoder.jp/users/zer0star"
 
 taxonomies:
   category: categories
