@@ -17,7 +17,7 @@ test test
 test
 test
 Union-Find algorithm: amortized \(O(\alpha(n))\) time
-$$ \sin(\theta) = \cos\left(\frac{\pi}{2} - \theta\right) $$
+  zer0-star   $$ \sin(\theta) = \cos\left(\frac{\pi}{2} - \theta\right) $$
 $$ \begin{align} \sum_{k=0}^\infty \frac{1}{2^k} &amp;amp; = \frac{1}{1 - \frac{1}{2}} \\
 &amp;amp; = 2 \end{align} $$
 import strutils, strformat for s in stdin.readLine().split(): echo fmt&amp;#34;Hello, {s}!&amp;#34; main = do n &amp;lt;- readLn @Int replicateM_ n $ putStrLn &amp;#34;Hello!&amp;#34; </description>
