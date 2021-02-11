@@ -2,6 +2,9 @@
 title: "くBC012 参戦記"
 date: 2021-02-12T01:27:56+09:00
 draft: false
+tags:
+- くそなぞなぞ
+- くBC
 ---
 
 開始20秒くらい HackerRank がバグってて焦った
