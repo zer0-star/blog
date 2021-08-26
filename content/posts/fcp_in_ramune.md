@@ -1,7 +1,7 @@
 ---
 title: "First-Class Patterns を自作言語に導入したい話"
 date: 2021-08-26T00:31:26+09:00
-draft: true
+draft: false
 ---
 
 Ramune という言語を作ろうとしているんですが、そこに First-Class Patterns を導入することを妄想しているので、それについて書きます
