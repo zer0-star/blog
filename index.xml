@@ -5,7 +5,22 @@
     <link>https://zer0-star.github.io/blog/</link>
     <description>Recent content on zer0-star&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 12 Feb 2021 01:27:56 +0900</lastBuildDate><atom:link href="https://zer0-star.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Aug 2021 00:31:26 +0900</lastBuildDate><atom:link href="https://zer0-star.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First-Class Patterns を自作言語に導入したい話</title>
+      <link>https://zer0-star.github.io/blog/posts/fcp_in_ramune/</link>
+      <pubDate>Thu, 26 Aug 2021 00:31:26 +0900</pubDate>
+      
+      <guid>https://zer0-star.github.io/blog/posts/fcp_in_ramune/</guid>
+      <description>Ramune という言語を作ろうとしているんですが、そこに First-Class Patterns を導入することを妄想しているので、それについて書きます
+まだ妄想でしかないので、よく分からないようなことを口走っていると思います（すみません！）
+First-Class Patterns については、こういうの（slideshare）とかこういうの（hackage）とか見るといいかもしれない
+first-class patterns の入った言語作りてー
+&amp;mdash; zer0-star (@0x_zer0star) February 19, 2021  こんな気の抜けたことも言っています（アホなので）
+Pattern as Function 要は、パターンというのは関数a -&amp;gt; Maybe bとみなせて、関数を適用してJustならマッチ成功、Nothingなら失敗とすればパターンマッチが実現できますよね、ということ 先ほど挙げた hackage のやつでは、マッチした結果を右辺の関数に渡すことで束縛の代用とされているが、Ramune では First-Class Patterns をネイティブにサポートして、レコード型（Haskell のようにデータ型の一部ではなく、PureScript のように単体で存在するもの）を介して識別子を束縛したい（{ x :: Int }が返ってきたらxがInt型の値に束縛されるように）
+パターンの型は Haskell 風に書くとnewtype Pattern a r = Pattern { runPattern :: a -&amp;gt; Maybe r }（rはレコード型）と定義できる。例えば、座標平面上の点を受け取ってx座標をxに、y座標をyに束縛するパターンpointは、疑似 Haskell でpoint = Pattern $ \(x, y) -&amp;gt; Just { x = x, y = y }と書ける。このときpointはPattern (a, b) { x :: a, y :: b }というような型を持つ値になるだろう。</description>
+    </item>
+    
     <item>
       <title>くBC012 参戦記</title>
       <link>https://zer0-star.github.io/blog/posts/ku_b_c_012/</link>

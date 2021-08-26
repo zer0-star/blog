@@ -53,6 +53,22 @@
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>First-Class Patterns を自作言語に導入したい話</h2>
+</header>
+<section class=entry-content>
+<p>Ramune という言語を作ろうとしているんですが、そこに First-Class Patterns を導入することを妄想しているので、それについて書きます
+まだ妄想でしかないので、よく分からないようなことを口走っていると思います（すみません！）
+First-Class Patterns については、こういうの（slideshare）とかこういうの（hackage）とか見るといいかもしれない
+first-class patterns の入った言語作りてー
+— zer0-star (@0x_zer0star) February 19, 2021 こんな気の抜けたことも言っています（アホなので）
+Pattern as Function 要は、パターンというのは関数a -> Maybe bとみなせて、関数を適用してJustならマッチ成功、Nothingなら失敗とすればパターンマッチが実現できますよね、ということ 先ほど挙げた hackage のやつでは、マッチした結果を右辺の関数に渡すことで束縛の代用とされているが、Ramune では First-Class Patterns をネイティブにサポートして、レコード型（Haskell のようにデータ型の一部ではなく、PureScript のように単体で存在するもの）を介して識別子を束縛したい（{ x :: Int }が返ってきたらxがInt型の値に束縛されるように）
+パターンの型は Haskell 風に書くとnewtype Pattern a r = Pattern { runPattern :: a -> Maybe r }（rはレコード型）と定義できる。例えば、座標平面上の点を受け取ってx座標をxに、y座標をyに束縛するパターンpointは、疑似 Haskell でpoint = Pattern $ \(x, y) -> Just { x = x, y = y }と書ける。このときpointはPattern (a, b) { x :: a, y :: b }というような型を持つ値になるだろう。...</p>
+</section>
+<footer class=entry-footer>August 26, 2021&nbsp;·&nbsp;3 分&nbsp;·&nbsp;zer0-star</footer>
+<a class=entry-link aria-label="post link to First-Class Patterns を自作言語に導入したい話" href=https://zer0-star.github.io/blog/posts/fcp_in_ramune/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>くBC012 参戦記</h2>
 </header>
 <section class=entry-content>
