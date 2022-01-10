@@ -16,7 +16,7 @@ test
 
 Union-Find algorithm: amortized \\(O(\alpha(n))\\) time
 
-{{< figure src="/images/zer0-star.webp" title="zer0-star" height="100vh" style="display: inline;">}}
+{{< figure src="/images/zer0-star.webp" title="zer0-star" alt="zer0-star's icon" width="100vh" height="100vh" style="display: inline;">}}
 
 $$
 \sin(\theta) = \cos\left(\frac{\pi}{2} - \theta\right)
