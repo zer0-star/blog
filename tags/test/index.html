@@ -3,11 +3,11 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=robots content="index, follow">
-<title>Posts | zer0-star's blog</title>
+<title>test | zer0-star's blog</title>
 <meta name=keywords content>
-<meta name=description content="Posts - zer0-star's blog">
+<meta name=description content="zer0-star's blog">
 <meta name=author content="zer0-star">
-<link rel=canonical href=https://zer0-star.github.io/blog/posts/>
+<link rel=canonical href=https://zer0-star.github.io/blog/tags/test/>
 <link crossorigin=anonymous href=https://zer0-star.github.io/blog/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css integrity="sha256-yIlj/i15RiAA/Q+xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as=style>
 <link rel=icon href=https://zer0-star.github.io/blog/favicon.webp>
 <link rel=icon type=image/png sizes=16x16 href=https://zer0-star.github.io/blog/favicon-16x16.png>
@@ -17,19 +17,18 @@
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.91.2">
-<link rel=alternate type=application/rss+xml href=https://zer0-star.github.io/blog/posts/index.xml>
+<link rel=alternate type=application/rss+xml href=https://zer0-star.github.io/blog/tags/test/index.xml>
 <noscript>
 <style>#theme-toggle,.top-link{display:none}</style>
 <style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
 </noscript>
-<meta property="og:title" content="Posts">
+<meta property="og:title" content="test">
 <meta property="og:description" content="zer0-star's blog">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://zer0-star.github.io/blog/posts/">
+<meta property="og:url" content="https://zer0-star.github.io/blog/tags/test/">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="Posts">
+<meta name=twitter:title content="test">
 <meta name=twitter:description content="zer0-star's blog">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://zer0-star.github.io/blog/posts/"}]}</script>
 </head>
 <body class=list id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -48,53 +47,9 @@
 </header>
 <main class=main>
 <header class=page-header>
-<h1>Posts</h1>
+<h1>test</h1>
 </header>
-<article class=post-entry>
-<header class=entry-header>
-<h2>First-Class Patterns を自作言語に導入したい話
-</h2>
-</header>
-<section class=entry-content>
-<p>Ramune という言語を作ろうとしているんですが、そこに First-Class Patterns を導入することを妄想しているので、それについて書きます
-まだ妄想でしかないので、よく分からないようなことを口走っていると思います（すみません！）
-First-Class Patterns については、こういうの（slideshare）とかこういうの（hackage）とか見るといいかもしれない
-first-class patterns の入った言語作りてー
-— zer0-star (@0x_zer0star) February 19, 2021 こんな気の抜けたことも言っています（アホなので）
-Pattern as Function 要は、パターンというのは関数a -> Maybe bとみなせて、関数を適用してJustならマッチ成功、Nothingなら失敗とすればパターンマッチが実現できますよね、ということ 先ほど挙げた hackage のやつでは、マッチした結果を右辺の関数に渡すことで束縛の代用とされているが、Ramune では First-Class Patterns をネイティブにサポートして、レコード型（Haskell のようにデータ型の一部ではなく、PureScript のように単体で存在するもの）を介して識別子を束縛したい（{ x :: Int }が返ってきたらxがInt型の値に束縛されるように）
-パターンの型は Haskell 風に書くとnewtype Pattern a r = Pattern { runPattern :: a -> Maybe r }（rはレコード型）と定義できる。例えば、座標平面上の点を受け取ってx座標をxに、y座標をyに束縛するパターンpointは、疑似 Haskell でpoint = Pattern $ \(x, y) -> Just { x = x, y = y }と書ける。このときpointはPattern (a, b) { x :: a, y :: b }というような型を持つ値になるだろう。...</p>
-</section>
-<footer class=entry-footer><span title="2021-08-26 00:31:26 +0900 +0900">8月 26, 2021</span>&nbsp;·&nbsp;3 分&nbsp;·&nbsp;zer0-star</footer>
-<a class=entry-link aria-label="post link to First-Class Patterns を自作言語に導入したい話" href=https://zer0-star.github.io/blog/posts/fcp_in_ramune/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>くBC012 参戦記
-</h2>
-</header>
-<section class=entry-content>
-<p>開始20秒くらい HackerRank がバグってて焦った
-A問題 呼ばれて返事をしている臓器ってなーんだ？
-返事といえば「はい」で、肺なのではい
-B問題 一流のものさしってなーんだ？
-普通に難しくない？F より難しい気がしなくもない。“ものさし 類語” でググり、“メジャー” を得た。そういえば「メジャー」には「一流」という意味もあった気がするので、めじゃー
-C問題 どちらか一方を選ぶ首都ってなーんだ？
-めちゃくちゃ難しかった。Wikipedia の首都の一覧のページを眺めたが、全然わからず。答はもしくわ（モスクワ、もしくは）らしい
-D問題 気体でありすぎている神の使いってなーんだ？
-これも難しかったが、良問だと思う（答がわかったときにとても興奮した）。 Wikipedia の神使のページを眺めていたら、“八咫烏” というワードを発見した。なんとなく言葉の響きが “ガス” に似ていたのでちょっと考えてみたところ、“やたがらす” は “やたらがす” （やたらガス）に並び替えられることに気付いた。あまりにも焦ってしまい答の入力に手間取った。答はやたらがす
-E問題 狭いけど凄い人ってなーんだ？
-これは本当に難しい。なろう系関連のワードを入れてみてもだめそうだったので、“狭い 類語” “凄い 類語” などでググっていた。最終的には “狭い 英語” でググりだし、このページにたどり着く。下の方に以下の記述があるのを発見:
-tight
-「ピンと張っている」 「しっかり固定されている」 という意味合いですが、
-スラングとして cool と同様、 「すごくかっこいい」 といった意味合いで用いられます。
-また、tight には 「ケチ（財布のヒモがきつい）野郎」 という意味もあります。
-終了まで1分くらいだったこともあり、めちゃくちゃ焦っていたため「tight……『狭い』『凄い』の2つの意味があるな、これだ！！！」と思い提出して AC を得たのだが、冷静に考えてくそなぞなぞコンテストに英語に2つの意味があるやつを出題するはずがないし、運が良かったと言わざるを得ない。実際の答は tight と泰斗（凄い人という意味らしい）とをかけてたいとらしい（泰斗という言葉は知らなかった）
-F問題 晩ごはんを心待ちにする軍隊ってなーんだ？...</p>
-</section>
-<footer class=entry-footer><span title="2021-02-12 01:27:56 +0900 +0900">2月 12, 2021</span>&nbsp;·&nbsp;1 分&nbsp;·&nbsp;zer0-star</footer>
-<a class=entry-link aria-label="post link to くBC012 参戦記" href=https://zer0-star.github.io/blog/posts/ku_b_c_012/></a>
-</article>
-<article class=post-entry>
+<article class="post-entry tag-entry">
 <header class=entry-header>
 <h2>My First Post
 </h2>
