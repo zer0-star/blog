@@ -28,13 +28,13 @@ params:
   # displayFullLangName: true
   # images: ""
   assets:
-    favicon: "favicon.png"
+    favicon: "favicon.webp"
 
   profileMode:
     enabled: true
     title: zer0-star's blog
     subtitle: ブログ始めました
-    imageUrl: "images/zer0-star.png"
+    imageUrl: "images/zer0-star.webp"
     imageTitle: my image
     buttons:
       - name: Posts
