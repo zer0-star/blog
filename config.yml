@@ -16,6 +16,10 @@ minify:
 
 canonifyurls: true
 
+markup:
+  highlight:
+    lineNos: true
+    lineNumbersInTable: false
 
 params:
   env: production
