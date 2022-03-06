@@ -5,7 +5,23 @@
     <link>https://zer0-star.github.io/blog/posts/</link>
     <description>Recent content in Posts on zer0-star&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 26 Aug 2021 00:31:26 +0900</lastBuildDate><atom:link href="https://zer0-star.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Mar 2022 13:38:11 +0900</lastBuildDate><atom:link href="https://zer0-star.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>高速ゼータ変換について学んだのでお気持ちを書く</title>
+      <link>https://zer0-star.github.io/blog/posts/fast_zeta_transform/</link>
+      <pubDate>Fri, 04 Mar 2022 13:38:11 +0900</pubDate>
+      
+      <guid>https://zer0-star.github.io/blog/posts/fast_zeta_transform/</guid>
+      <description>一生懸命書いたつもりですが、嘘が書いてあるかもしれませんし、カスみたいなことを書いているかもしれません。すみません(保身)
+競プロにおける一般的な高速ゼータ変換 競プロにおいて、&amp;ldquo;ゼータ変換&amp;quot;や&amp;quot;メビウス変換&amp;quot;という用語は以下の意味で使われることが多いようです。
+ 有限集合 \(X\)、(可換)半群 \(G\) を考える。
+関数 \(f : 2^X \to G\), \(g : 2^X \to G\) が次の\((1)\)式または\((2)\)式を満たすとき、\(f\) から \(g\) を求めることをゼータ変換、\(g\) から \(f\) を求めることをメビウス変換と呼ぶ。
+\begin{align} g(S) &amp;amp;= \sum_{T \subseteq S} f(T) \\ g(S) &amp;amp;= \sum_{T \supseteq S} f(T) \end{align}
+ このゼータ変換やメビウス変換を\(N\)次元累積和の手法を用いて高速化したのが、高速ゼータ変換や高速メビウス変換です。集合 \( X \) を \( |X| \) 次元の \( 2 \times 2 \times \dots \times 2 \) 格子とみなして、各次元ごとに累積和をとることでゼータ変換が成立するというのがこのアルゴリズムのキモなのです。(アルゴリズムの詳細には立ち入らないので、気になる方は記事末尾のリンクを参考にしてください)
+本当は、ゼータ変換は集合の包含関係に限定されない一般的なかたちで定義されるものなのですが、そういった一般のゼータ変換に対して、高速化できるとは限りません。
+畳み込み ゼータ変換とある種の畳み込みには深い関係があります。(適切なゼータ変換を持ってきたとき、)関数 \( f \), \( g \) の畳み込みを \( h \) 、\( f \), \( g \), \( h \) のゼータ変換をそれぞれ \( \hat{f} \), \( \hat{g} \), \( \hat{h} \) とおくと、\( \hat{h} = \hat{f} * \hat{g} \) が成立するのです1(ただし、\(*\)は各点積)。よって、畳み込みの種類によっては、ゼータ変換 → 各点積 → メビウス変換 という手順によって畳み込みを高速化できることがあります。</description>
+    </item>
+    
     <item>
       <title>First-Class Patterns を自作言語に導入したい話</title>
       <link>https://zer0-star.github.io/blog/posts/fcp_in_ramune/</link>
