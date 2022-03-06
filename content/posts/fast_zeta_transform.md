@@ -1,7 +1,7 @@
 ---
 title: "高速ゼータ変換について学んだのでお気持ちを書く"
 date: 2022-03-04T13:38:11+09:00
-draft: true
+draft: false
 math: true
 ---
 

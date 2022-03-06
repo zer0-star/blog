@@ -46,8 +46,10 @@ intX = #x
 
 ```haskell
 -- 疑似Haskellで書くと、こう
+newtype Pattern a r = Pattern (a -> Maybe r)
+
 pair :: Pattern (a, b) { x :: a, y :: b }
-pair = Pattern $ \(x, y) -> { x = x, y = y }
+pair = Pattern $ \(x, y) -> Just { x = x, y = y }
 
 -- しかし、単純なパターンの合成は簡潔に書ける（こともある）
 pair :: Pattern (a, b) { x :: a, y :: b }
