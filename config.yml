@@ -1,4 +1,4 @@
-baseURL: "https://zer0-star.github.io/blog/"
+baseURL: "https://blog.zer0-star.dev/"
 title: zer0-star's blog
 paginate: 5
 theme: hugo-PaperMod
