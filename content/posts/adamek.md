@@ -9,7 +9,7 @@ nLabの記事（[terminal coalgebra for an endofunctor in nLab](https://ncatlab.
 
 自分用のメモみたいなもんなので、あんまりクオリティとか正確性に自信はない......
 
-[^amscd]: Katexで可換図式を描く唯一の手段であるAMScdは、斜めの射が描けないなど、不便なのである。
+[^amscd]: Katexで可換図式を描く唯一の手段であるAMScdは、斜めの射が描けないなど、不便なのである。Latexで出力した図式を画像化して埋め込むなどの方法もあるが、楽かつ可搬性の高い手段としてquiverの埋め込みが有用なのではないかと思って試している。
 
 nLabの方ではterminal coalgebraについての定理だが、こっちではinitial algebraのバージョンについて書く。
 
