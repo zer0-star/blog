@@ -99,6 +99,9 @@ $$
 
 よって、\\( \alpha \circ Fh \circ \theta^{-1} \\) はcoconeの間の射なので、一意性より以下の図式が可換になる。
 
+<!-- https://q.uiver.app/#q=WzAsNCxbMCwwLCJGVCJdLFsyLDAsIlQiXSxbMCwyLCJGQSJdLFsyLDIsIkEiXSxbMSwwLCJcXHRoZXRhXnstMX0iLDJdLFswLDIsIkZoIiwyXSxbMiwzLCJcXGFscGhhIl0sWzEsMywiaCIsMl1d -->
+<iframe class="quiver-embed" src="https://q.uiver.app/#q=WzAsNCxbMCwwLCJGVCJdLFsyLDAsIlQiXSxbMCwyLCJGQSJdLFsyLDIsIkEiXSxbMSwwLCJcXHRoZXRhXnstMX0iLDJdLFswLDIsIkZoIiwyXSxbMiwzLCJcXGFscGhhIl0sWzEsMywiaCIsMl1d&embed" width="432" height="432" style="border-radius: 8px; border: none;"></iframe>
+
 すなわち、\\( h \\) は \\( (T, \theta) \\) から \\( (A, \alpha) \\) への一意なalgebra mapである。 \\( \blacksquare \\)
 
 ## おわりに
