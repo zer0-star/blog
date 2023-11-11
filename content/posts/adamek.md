@@ -7,6 +7,8 @@ math: true
 
 nLabの記事（[terminal coalgebra for an endofunctor in nLab](https://ncatlab.org/nlab/show/terminal+coalgebra+for+an+endofunctor)）を読んでいたら、図式は読みづらいし行間は広いしで、読解にだいぶ時間を使った。せっかくなので、[quiver](q.uiver.app)（図式を簡単に描けるアプリケーション）の練習と埋め込み機能のテストを兼ねて[^amscd]、大部分を参考にしながら自分なりにまとめ直すことにした。
 
+自分用のメモみたいなもんなので、あんまりクオリティとか正確性に自信はない......
+
 [^amscd]: Katexで可換図式を描く唯一の手段であるAMScdは、斜めの射が描けないなど、不便なのである。
 
 nLabの方ではterminal coalgebraについての定理だが、こっちではinitial algebraのバージョンについて書く。
