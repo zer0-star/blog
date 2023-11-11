@@ -22,12 +22,15 @@ markup:
   highlight:
     lineNos: true
     lineNumbersInTable: false
+  goldmark:
+    renderer:
+      unsafe: true
 
 params:
   env: production
   description: "zer0-star's blog"
   author: zer0-star
-  
+
   ShowReadingTime: true
   defaultTheme: auto
   ShowShareButtons: true
@@ -64,4 +67,3 @@ taxonomies:
   category: categories
   tag: tags
   series: series
-
