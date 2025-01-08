@@ -10,7 +10,7 @@ Ramune という言語を作ろうとしているんですが、そこに First-
 
 First-Class Patterns については、[こういうの（slideshare）](https://www.slideshare.net/jdegoes/firstclass-patterns)とか[こういうの（hackage）](https://hackage.haskell.org/package/first-class-patterns)とか見るといいかもしれない
 
-{{< tweet 1362810124155293698 >}}
+{{< tweet user="0x_zer0star" id="1362810124155293698" >}}
 
 こんな気の抜けたことも言っています（アホなので）
 
