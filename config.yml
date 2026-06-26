@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/SchemaStore/schemastore/refs/heads/master/src/schemas/json/hugo.json
+
 baseURL: "https://blog.zer0-star.dev/"
 title: zer0-star's blog
 pagination:
@@ -19,6 +21,14 @@ minify:
 
 canonifyurls: true
 
+enableGitInfo: true
+
+frontmatter:
+  lastmod:
+    - lastmod
+    - modified
+    - :git
+
 markup:
   highlight:
     lineNos: true
@@ -26,6 +36,20 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - '\['
+            - '\]'
+          - - $$
+            - $$
+          inline:
+          - - '\('
+            - '\)'
+          - - '$'
+            - '$'
+        enable: true
 
 params:
   env: production

@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "budparr.language-hugo-vscode",
+    "gohugoio.gotmplfmt",
+    "eliostruyf.vscode-front-matter",
+    "thuliteio.hugo-shortcodes"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "[html]": {
+    "editor.defaultFormatter": "gohugoio.gotmplfmt",
+  },
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    },
+  },
+}
