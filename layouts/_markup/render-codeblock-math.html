@@ -1,0 +1,9 @@
+{{- $preamble := or .Page.Params.preamble "" -}}
+{{- $hash_text := add $preamble .Inner -}}
+{{- $hash := crypto.SHA256 $hash_text -}}
+{{- with $hash | printf "images/latex/%s.svg" | resources.Get -}}
+	<object type="{{ .MediaType.Type }}" data="{{ .RelPermalink }}" >
+	</object>
+{{- else -}}
+	{{- errorf "There are no images for the math block %.8s. Maybe you should compile it first." ($hash) -}}
+{{- end -}}
