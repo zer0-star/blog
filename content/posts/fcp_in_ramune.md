@@ -1,7 +1,7 @@
 ---
 title: "First-Class Patterns を自作言語に導入したい話"
 date: 2021-08-26T00:31:26+09:00
-draft: false
+draft: true
 ---
 
 Ramune という言語を作ろうとしているんですが、そこに First-Class Patterns を導入することを妄想しているので、それについて書きます
@@ -10,7 +10,7 @@ Ramune という言語を作ろうとしているんですが、そこに First-
 
 First-Class Patterns については、[こういうの（slideshare）](https://www.slideshare.net/jdegoes/firstclass-patterns)とか[こういうの（hackage）](https://hackage.haskell.org/package/first-class-patterns)とか見るといいかもしれない
 
-{{< tweet user="0x_zer0star" id="1362810124155293698" >}}
+{{< x user="0x_zer0star" id="1362810124155293698" >}}
 
 こんな気の抜けたことも言っています（アホなので）
 
